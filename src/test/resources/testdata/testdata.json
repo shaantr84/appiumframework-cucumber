@@ -1,0 +1,12 @@
+{
+  "validUser": {
+    "userName": "AUEUAT10Feb2323@getnada.com",
+    "password": "Welcome123!"
+  },
+  "invalidEmail": {
+    "userName": "demogmail"
+  },
+  "invalidPassword": {
+    "password": "123091234"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "platformName": "iOS",
+  "udid": "3bc7dd8b5c22793740afe7d216afb5ba2933e394",
+  "appPath": "/app/ShanojProductsApp.ipa",
+  "deviceName": "iPhone",
+  "automationName": "XCUITest",
+  "bundleId": "com.shanoj.ShanojProductsApp"
+}

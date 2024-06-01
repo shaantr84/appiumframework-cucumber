@@ -1,0 +1,8 @@
+{
+    "platformName": "Android",
+    "platformVersion": "13",
+    "automationName": "UiAutomator2",
+    "appPackage":"com.aia.gr.rn.au.v2020.vitalityua1" ,
+    "appActivity":"com.aia.gr.rn.au2021.MainActivity",
+    "deviceName": "Google Pixel"
+}
