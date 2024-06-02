@@ -50,7 +50,7 @@
                         <OS>${os.name}</OS>
                     </customParameters>
                     <customPageTitle>Mobile Automation Report</customPageTitle>
-                    <customCss>${project.basedir}src/test/resources/custom.css</customCss>
+                    <customCss>${project.basedir}src/main/resources/custom.css</customCss>
                 </configuration>
             </plugin>
         </plugins>
