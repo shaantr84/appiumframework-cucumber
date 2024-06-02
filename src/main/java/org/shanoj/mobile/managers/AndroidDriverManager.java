@@ -19,6 +19,7 @@ public class AndroidDriverManager implements IDriverManager {
         desiredCapabilities.setCapability("platformVersion",androidCapabilities.getPlatformVersion());
         desiredCapabilities.setCapability("deviceName", androidCapabilities.getDeviceName());
         try {
+            System.out.println(ConfigurationManager.getConfiguration().appiumServerURL());
             url = new URL(ConfigurationManager.getConfiguration().appiumServerURL());
             desiredCapabilities.setCapability("appPackage", androidCapabilities.getAppPackage());
             desiredCapabilities.setCapability("appActivity", androidCapabilities.getAppActivity());
