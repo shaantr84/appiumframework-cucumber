@@ -13,6 +13,7 @@ public class AndroidDriverManager implements IDriverManager {
     URL url;
     @Override
     public AppiumDriver createDriverInstance() {
+        System.out.println("Creating driver : Android manager");
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         AndroidCapabilities androidCapabilities = new AndroidCapbilityBuilder().getCapabilities();
         desiredCapabilities.setCapability("platformName", androidCapabilities.getPlatformName());

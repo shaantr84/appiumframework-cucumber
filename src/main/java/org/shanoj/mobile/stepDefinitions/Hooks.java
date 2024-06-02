@@ -25,6 +25,7 @@ public class Hooks {
     public void setUp(Scenario scenario) throws Exception {
         System.out.println("---------------------BEFORE SCENARIO STARTED-------------------");
         Platform platform = ConfigurationManager.getConfiguration().executeOnPlatform();
+        System.out.println("Executing on platform : " +platform);
         driver = new DriverManagerFactoryImpl().getManager(platform).createDriverInstance();
         context.driver = driver;
         screen = new ScreenFactory(context.driver);
